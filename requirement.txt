@@ -1,0 +1,5 @@
+python-dotenv
+streamlit
+
+autogen
+llama-index-llms-ollama
