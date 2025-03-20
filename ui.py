@@ -30,12 +30,12 @@ def main():
     agent = AdvancedComparisonAgent()
     
     # Form type selection
-    form1_type = st.selectbox("Select format for Form 1:", ["JSON", "XML", "TEXT"], index=0)
-    form2_type = st.selectbox("Select format for Form 2:", ["JSON", "XML", "TEXT"], index=0)
+    form1_type = st.selectbox("Select format for Form 1:", ["JSON", "XML", "TEXT"], index=0, key="form1_type")
+    form2_type = st.selectbox("Select format for Form 2:", ["JSON", "XML", "TEXT"], index=0, key="form2_type")
     
     # User inputs
-    form1_input = st.text_area(f"Enter {form1_type} Form Data", height=200)
-    form2_input = st.text_area(f"Enter {form2_type} Form Data", height=200)
+    form1_input = st.text_area(f"Enter {form1_type} Form Data", height=200, key="form1_input")
+    form2_input = st.text_area(f"Enter {form2_type} Form Data", height=200, key="form2_input")
     
     if st.button("Compare Forms ✨"):
         try:
