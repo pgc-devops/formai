@@ -1,5 +1,5 @@
 python-dotenv
 streamlit
-
+groq
 autogen
 llama-index-llms-ollama
