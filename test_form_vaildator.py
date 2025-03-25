@@ -84,6 +84,10 @@ class AdvancedComparisonAgent:
         prompt = (
             "Compare the following two forms and determine if their fields match based on synonyms, "
             "relative meaning, or common variations. Identify mismatches and suggest corrections.\n\n"
+            
+            #Added on 25 March 2025- Remove if does not work
+            "For Base Amount, amut is excluding 13% HST. For Monthly recurring price, the value is including 13% HST. Calculate and check\n"
+            
             "Form 1: {form1}\n"
             "Form 2: {form2}\n\n"
             "Return the output in a structured table format with the following columns:\n"
