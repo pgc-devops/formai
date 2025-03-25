@@ -86,7 +86,7 @@ class AdvancedComparisonAgent:
             "relative meaning, or common variations. Identify mismatches and suggest corrections.\n\n"
             
             #Added on 25 March 2025- Remove if does not work
-            "Form 1 Base Amount is excluding 13% HST. Form 2 Base amount is including 13% HST. The value in Form 1 Base amount must be muliplied by 13% and added up to determine final value of Base amount in Form 2"
+            "The number value in Form 1 Base amount must be muliplied by 13% and added up to determine final number value of Base amount in Form 2 and then compared to check if correct"
             
             "Form 1: {form1}\n"
             "Form 2: {form2}\n\n"
