@@ -86,7 +86,7 @@ class AdvancedComparisonAgent:
             "relative meaning, or common variations. Identify mismatches and suggest corrections.\n\n"
             
             #Added on 25 March 2025- Remove if does not work
-            "For Base Amount, amut is excluding 13% HST. For Monthly recurring price, the value is including 13% HST. Calculate and check\n"
+            "Form 1 Base Amount is excluding 13% HST. Form 2 Base amount is including 13% HST. The value in Form 1 Base amount must be muliplied by 13% and added up to determine final value of Base amount in Form 2"
             
             "Form 1: {form1}\n"
             "Form 2: {form2}\n\n"
